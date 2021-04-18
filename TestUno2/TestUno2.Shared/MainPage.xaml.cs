@@ -89,7 +89,7 @@ namespace TestUno2
                                 CoreDispatcherPriority.Normal,
                                 () =>
                                 {
-                                    Data.Text += content;
+                                    Data.Text = content;
                                 });
                         }
                     }
